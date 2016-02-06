@@ -1,0 +1,24 @@
+﻿<Page
+    x:Class="Scribes_APP.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Scribes_APP"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <GridViewHeaderItem Margin="15,10,0,0" Content="HOME PAGE" FontSize="15" FontFamily="Segoe UI Semibold"></GridViewHeaderItem>
+        <Button x:ConnectionId='1' Content="Sign In" HorizontalAlignment="Left" Margin="131,315,0,0" VerticalAlignment="Top"                         RenderTransformOrigin="0.512,2.661" Height="67" Width="131"/>
+        <Button x:ConnectionId='2' x:Name="btnSignUp" 
+                Content="Sign Up" 
+                HorizontalAlignment="Left"
+                Margin="131,403,0,0" 
+                VerticalAlignment="Top"
+                                        Height="67" Width="131" />
+        <Image Source="Assets/quotes.png" HorizontalAlignment="Left" Height="249" Margin="10,37,0,0" VerticalAlignment="Top" Width="380"/>
+
+    </Grid>
+</Page>
+

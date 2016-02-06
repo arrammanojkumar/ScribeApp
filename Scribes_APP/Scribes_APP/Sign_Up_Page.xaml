@@ -1,0 +1,30 @@
+﻿<Page
+    x:Class="Scribes_APP.Sign_Up_Page"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Scribes_APP"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <GridViewHeaderItem Margin="15,10,0,0" Content="REGISTRATION PAGE">
+
+        </GridViewHeaderItem>
+        <Button x:Name="btnScribe" 
+                Content="Sign Up As Scribe" 
+                HorizontalAlignment="Left" 
+                Margin="140,197,0,0" 
+                VerticalAlignment="Top"
+                Click="btnScribe_Click" Height="48"/>
+        <Button x:Name="btnPHP" 
+                Content="Sign Up As P H P" 
+                HorizontalAlignment="Left"
+                Margin="140,280,0,0" 
+                VerticalAlignment="Top"
+                Click="btnPHP_Click" Width="193" Height="48"/>
+
+        <Image Margin="37,571,314,26" Source="Assets/back.png" Tapped="Image_Tapped"/>
+    </Grid>
+</Page>

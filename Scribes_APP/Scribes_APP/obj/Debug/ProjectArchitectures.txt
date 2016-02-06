@@ -1,0 +1,1 @@
+A:\Windows_Phone_Apps\Scribes_APP\Scribes_APP\Scribes_APP.csproj;neutral
